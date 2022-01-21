@@ -1,0 +1,27 @@
+*,*::after,*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    // outline: 1px solid red;
+}
+.nodeBox{
+    height: 1.5rem;
+    width: 1.5rem;
+    border: .1ch solid rgba(0, 128, 0, 0.466);
+    cursor: pointer;
+    // display: inline-block;
+  
+    &:hover{
+        background: gray;
+    }
+   
+}
+.node-finish{
+    background: #000;
+}
+.node-start{
+    background: red;
+}
+.node-visited{
+    background: #23C4ED;
+}
